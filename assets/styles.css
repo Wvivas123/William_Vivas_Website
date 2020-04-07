@@ -2,22 +2,24 @@ body,
 html,
 .main {
   height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: whitesmoke;
 }
 
 section {
   min-height: 100%;
 }
 .sectionOne {
-  background-color: blue;
+  background-color: whitesmoke;
 }
 
 .sectionTwo {
-  background-color: green;
+  background-color: whitesmoke;
 }
 
 .sectionThree {
   background-color: yellow;
 }
 .sectionThree {
-  background-color: red;
+  background-color: whitesmoke;
 }
