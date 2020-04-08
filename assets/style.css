@@ -4,14 +4,20 @@ html,
   height: 100%;
   font-family: 'Poppins', sans-serif;
   background-color: whitesmoke;
-  animation: bodyani 20s infinite;
+  animation: bodyani 40s infinite;
 }
 @keyframes bodyani {
   0% {
     background-color: whitesmoke;
   }
-  50% {
+  25% {
     background-color: rgb(218, 215, 215);
+  }
+  50% {
+    background-color: whitesmoke;
+  }
+  75% {
+    background-color: white;
   }
   100% {
     background-color: whitesmoke;
@@ -19,7 +25,7 @@ html,
 }
 .contentdiv {
   margin-bottom: 5%;
-  animation: bodyani 20s infinite;
+  animation: bodyani 40s infinite;
 }
 .bin {
   margin-left: 2px;
@@ -40,7 +46,7 @@ hr {
   border-bottom: none;
   width: 10%;
 
-  animation: mymove 5s infinite;
+  animation: bodyani 40s infinite;
 }
 @keyframes mymove {
   0% {
@@ -63,21 +69,21 @@ section {
 }
 .sectionOne {
   background-color: whitesmoke;
-  animation: bodyani 20s infinite;
+  animation: bodyani 40s infinite;
 }
 
 .sectionTwo {
   background-color: whitesmoke;
-  animation: bodyani 20s infinite;
+  animation: bodyani 40s infinite;
 }
 
 .sectionThree {
   background-color: yellow;
-  animation: bodyani 20s infinite;
+  animation: bodyani 40s infinite;
 }
 .sectionThree {
   background-color: whitesmoke;
-  animation: bodyani 20s infinite;
+  animation: bodyani 40s infinite;
 }
 .socialicon {
   width: 50px;
