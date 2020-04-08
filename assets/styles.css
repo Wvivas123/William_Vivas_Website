@@ -5,9 +5,25 @@ html,
   font-family: 'Poppins', sans-serif;
   background-color: whitesmoke;
 }
+.contentdiv {
+  margin-bottom: 5%;
+}
+.buttondiv {
+  position: relative;
+  
+  bottom: 0;
+}
+h1 {
+  font-size: 4em;
+}
+h2{
+    font-size: 2.5em;
 
+}
 section {
+
   min-height: 100%;
+  padding: 5%;
 }
 .sectionOne {
   background-color: whitesmoke;
@@ -23,3 +39,70 @@ section {
 .sectionThree {
   background-color: whitesmoke;
 }
+
+a,
+a:visited,
+a:hover,
+a:active {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  transition: 0.5s color ease;
+  text-decoration: none;
+  color: #81b3d2;
+  font-size: 2.5em;
+}
+
+a:hover {
+  color: #d73444;
+}
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
