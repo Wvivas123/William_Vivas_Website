@@ -16,6 +16,11 @@ html,
 h1 {
   font-size: 4em;
 }
+hr {
+  border-top: dotted #000;
+ 
+  
+}
 h2{
     font-size: 2.5em;
 
