@@ -140,9 +140,10 @@ a:hover {
   }
   h1 {
     font-size: 3em;
+    margin-bottom: 0px;
   }
   #bd1 {
-    margin-bottom: 75px;
+    margin-bottom: 50px;
   }
   #bd2 {
     margin-bottom: 20px;
