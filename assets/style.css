@@ -4,9 +4,22 @@ html,
   height: 100%;
   font-family: 'Poppins', sans-serif;
   background-color: whitesmoke;
+  animation: bodyani 20s infinite;
+}
+@keyframes bodyani {
+  0% {
+    background-color: whitesmoke;
+  }
+  50% {
+    background-color: rgb(218, 215, 215);
+  }
+  100% {
+    background-color: whitesmoke;
+  }
 }
 .contentdiv {
   margin-bottom: 5%;
+  animation: bodyani 20s infinite;
 }
 .bin {
   margin-left: 2px;
@@ -50,17 +63,21 @@ section {
 }
 .sectionOne {
   background-color: whitesmoke;
+  animation: bodyani 20s infinite;
 }
 
 .sectionTwo {
   background-color: whitesmoke;
+  animation: bodyani 20s infinite;
 }
 
 .sectionThree {
   background-color: yellow;
+  animation: bodyani 20s infinite;
 }
 .sectionThree {
   background-color: whitesmoke;
+  animation: bodyani 20s infinite;
 }
 .socialicon {
   width: 50px;
