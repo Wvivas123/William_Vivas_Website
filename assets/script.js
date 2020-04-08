@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
   // Add smooth scrolling to all links
   $('#scrollone').on('click', function (event) {
     // Make sure this.hash has a value before overriding default behavior
