@@ -17,11 +17,21 @@ h1 {
   font-size: 4em;
 }
 hr {
-  border-top: dotted #000;
- 
+  position: relative;
+  bottom: 0px;
+  border: dotted 6px;
+  
+  border-bottom: none;
+  width: 10%;
+  
+  animation: mymove 5s infinite;
   
 }
-h2{
+@keyframes mymove {
+  0%   {color: whitesmoke;}
+  100% {color: black;}
+}
+.h2{
     font-size: 2.5em;
 
 }
@@ -29,10 +39,11 @@ li{
     font-size: 2.5em;
 
 }
+
 section {
 
   min-height: 100%;
-  padding: 5%;
+  padding: 3%;
 }
 .sectionOne {
   background-color: whitesmoke;
@@ -47,6 +58,11 @@ section {
 }
 .sectionThree {
   background-color: whitesmoke;
+}
+.socialicon{
+ width: 50px;
+ margin-right: 1%;
+   
 }
 
 a,
@@ -115,3 +131,4 @@ a:hover {
     100% {
       opacity:1;
   }
+
