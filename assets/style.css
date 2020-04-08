@@ -8,6 +8,9 @@ html,
 .contentdiv {
   margin-bottom: 5%;
 }
+.bin {
+  margin-left: 2px;
+}
 .buttondiv {
   position: relative;
 
