@@ -29,7 +29,7 @@ html,
 }
 .contentdiv {
   margin-bottom: 5%;
-  animation: bodyani 40s infinite;
+  animation: bodyani 20s infinite;
 }
 .bin {
   margin-left: 2px;
@@ -104,7 +104,7 @@ hr {
   border-bottom: none;
   width: 10%;
 
-  animation: bodyani 40s infinite;
+  animation: bodyani 20s infinite;
 }
 @keyframes mymove {
   0% {
@@ -127,21 +127,21 @@ section {
 }
 .sectionOne {
   background-color: whitesmoke;
-  animation: bodyani 40s infinite;
+  animation: bodyani 20s infinite;
 }
 
 .sectionTwo {
   background-color: whitesmoke;
-  animation: bodyani 40s infinite;
+  animation: bodyani 20s infinite;
 }
 
 .sectionThree {
   background-color: yellow;
-  animation: bodyani 40s infinite;
+  animation: bodyani 20s infinite;
 }
 .sectionThree {
   background-color: whitesmoke;
-  animation: bodyani 40s infinite;
+  animation: bodyani 20s infinite;
 }
 .socialicon {
   width: 50px;
