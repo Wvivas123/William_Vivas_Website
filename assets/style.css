@@ -6,6 +6,9 @@ html,
   background-color: whitesmoke;
   animation: bodyani 40s infinite;
 }
+.res {
+  font-family: 'Roboto', sans-serif;
+}
 @keyframes bodyani {
   0% {
     background-color: whitesmoke;
@@ -241,5 +244,9 @@ a:hover {
   .res {
     margin-bottom: 0px;
     margin-top: 5px;
+  }
+  .box {
+    width: 250px;
+    padding: 3%;
   }
 }
