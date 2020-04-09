@@ -9,6 +9,7 @@ html,
 .res {
   font-family: 'Roboto', sans-serif;
 }
+
 @keyframes bodyani {
   0% {
     background-color: whitesmoke;
