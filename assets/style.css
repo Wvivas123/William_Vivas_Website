@@ -4,7 +4,7 @@ html,
   height: 100%;
   font-family: 'Poppins', sans-serif;
   background-color: whitesmoke;
-  animation: bodyani 40s infinite;
+  animation: bodyani 20s infinite;
 }
 .res {
   font-family: 'Roboto', sans-serif;
