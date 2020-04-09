@@ -10,6 +10,13 @@ html,
   font-family: 'Roboto', sans-serif;
 }
 
+#bd1 {
+  margin-bottom: 15%;
+}
+#bd2 {
+  margin-bottom: 11%;
+}
+
 @keyframes bodyani {
   0% {
     background-color: whitesmoke;
@@ -97,15 +104,14 @@ h1 {
 }
 
 hr {
-  position: relative;
-  bottom: 0px;
-  border: dotted 6px;
-
-  border-bottom: none;
-  width: 10%;
-
-  animation: bodyani 20s infinite;
+  margin-top: 20px;
+  padding: 2px 0;
+  border: none;
+  background-color: rgb(250, 150, 0);
+  letter-spacing: 5px;
+  width: 45%;
 }
+
 @keyframes mymove {
   0% {
     color: whitesmoke;
@@ -236,13 +242,13 @@ a:hover {
     margin-bottom: 0px;
   }
   #bd1 {
-    margin-bottom: 50px;
+    margin-bottom: 78px;
   }
   #bd2 {
     margin-bottom: 20px;
   }
   #bd3 {
-    margin-bottom: 55px;
+    margin-bottom: 53px;
   }
   .bin {
     width: 100px;
